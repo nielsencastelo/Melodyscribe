@@ -1,0 +1,9 @@
+torch
+librosa
+pretty_midi
+music21
+numpy
+matplotlib
+soundfile
+jupyter
+notebook
