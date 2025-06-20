@@ -1,44 +1,45 @@
 # Melodyscribe 🎼🤖
 
-**Status: Em desenvolvimento.** 🚧
+**Status: In development.** 🚧
 
-Melodyscribe é um sistema baseado em Inteligência Artificial para transcrição automática de músicas (WAV, MP3) em partituras em formato PDF, com suporte a múltiplos instrumentos e voz.
+Melodyscribe is an AI-based system for automatic transcription of songs (WAV, MP3) into sheet music in PDF format, with support for multiple instruments and voice.
 
-## 🎯 Objetivo
+## 🎯 Goal
 
-Criar uma ferramenta colaborativa baseada em agentes especializados que possam detectar, separar e transcrever linhas melódicas e harmônicas de instrumentos e vozes contidos em gravações de áudio.
+To build a collaborative tool based on specialized agents capable of detecting, separating, and transcribing melodic and harmonic lines of instruments and vocals contained in audio recordings.
 
-## 📂 Estrutura do Projeto
+## 📂 Project Structure
 
-- `notebooks/`: notebooks com explorações e experimentos
-- `scripts/`: pipeline de transcrição
-- `agents/`: agentes por instrumento
-- `models/`: modelos treinados e salvos
-- `data/`: dados de entrada e processados
-- `utils/`: funções auxiliares
-- `tests/`: testes unitários
+- `notebooks/`: exploration and experiment notebooks
+- `scripts/`: transcription pipeline
+- `agents/`: specialized agents per instrument
+- `models/`: trained and development models
+- `data/`: input and processed data
+- `utils/`: helper functions
+- `tests/`: unit tests
 
-## 🧠 Tecnologias em Estudo
+## 🧠 Technologies Being Studied
 
-- Separadores: **Demucs**, **Spleeter**
-- Transcrição: **BasicPitch**, **CREPE**, **Onsets and Frames**
-- Libs: `PyTorch`, `Librosa`, `pretty_midi`, `music21`
+- Source Separation: **Demucs**, **Spleeter**
+- Transcription: **BasicPitch**, **CREPE**, **Onsets and Frames**
+- Libraries: `PyTorch`, `Librosa`, `pretty_midi`, `music21`
 
 ## 🔬 Roadmap
 
-- [ ] Separar fontes (voz, piano, guitarra)
-- [ ] Transcrição MIDI de cada fonte
-- [ ] Conversão MIDI → Partitura
-- [ ] Agentes especializados por instrumento
-- [ ] Avaliação com métricas musicais
+- [ ] Separate sources (voice, piano, guitar)
+- [ ] Transcribe each source to MIDI
+- [ ] Convert MIDI to sheet music
+- [ ] Develop instrument-specific agents
+- [ ] Evaluate using musical transcription metrics
 
-## ⚙️ Instalação
+## ⚙️ Installation
 
 ```bash
 pip install -r requirements.txt
+
 ```
 
-## 🗂️ Exemplo de Uso
+## 🗂️ Usage Example
 
 ```bash
 python scripts/audio_to_midi.py --input data/raw/music.wav --output data/midi/music.mid
