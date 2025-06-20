@@ -36,7 +36,6 @@ To build a collaborative tool based on specialized agents capable of detecting, 
 
 ```bash
 pip install -r requirements.txt
-
 ```
 
 ## 🗂️ Usage Example

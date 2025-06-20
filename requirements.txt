@@ -1,9 +1,17 @@
-torch
-librosa
-pretty_midi
-music21
-numpy
-matplotlib
-soundfile
-jupyter
-notebook
+# Backend de Deep Learning
+torch==2.2.2
+
+# Processamento de Áudio
+librosa==0.10.1
+soundfile==0.12.1
+pretty_midi==0.2.10
+numpy==1.24.4
+matplotlib==3.7.3
+
+# Transcrição e geração de partitura
+music21==7.3.3
+# Requer LilyPond instalado no sistema para exportar PDF
+
+# Ambiente de desenvolvimento
+jupyter==1.0.0
+notebook==6.5.6
