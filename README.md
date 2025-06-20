@@ -44,3 +44,4 @@ pip install -r requirements.txt
 python scripts/audio_to_midi.py --input data/raw/music.wav --output data/midi/music.mid
 python scripts/midi_to_sheet.py --input data/midi/music.mid --output output/music.pdf
 ```
+ 
